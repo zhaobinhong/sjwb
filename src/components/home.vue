@@ -23,7 +23,7 @@
             </div>
           </div>
           <div class="col-sm-8 col-md-8 col-lg-8 sw">
-            <img src="/static/img/hard-work-with-a-book-picjumbo-com.jpg" width="100%">
+            <img src="static/img/hard-work-with-a-book-picjumbo-com.jpg" width="100%">
           </div>
         </div>
       </section>
@@ -43,7 +43,7 @@
           <div class="col-md-12">
             <ul id="gtco-portfolio-list">
               <li class="two-third animate-box" data-animate-effect="fadeIn"
-                  style="background-image: url(/static/img/11.jpg); ">
+                  style="background-image: url(static/img/11.jpg); ">
                 <a href="#" class="color-1">
                   <!--<div class="case-studies-summary">-->
                   <!--<span>Web Design</span>-->
@@ -52,7 +52,7 @@
                 </a>
               </li>
               <li class="one-third animate-box" data-animate-effect="fadeIn"
-                  style="background-image: url(/static/img/12.jpg); ">
+                  style="background-image: url(static/img/12.jpg); ">
                 <a href="#" class="color-2">
                   <!--<div class="case-studies-summary">-->
                   <!--<span>Illustration</span>-->
@@ -63,7 +63,7 @@
 
 
               <li class="one-half animate-box" data-animate-effect="fadeIn"
-                  style="background-image: url(/static/img/13.jpg); ">
+                  style="background-image: url(static/img/13.jpg); ">
                 <a href="#" class="color-3">
                   <!--<div class="case-studies-summary">-->
                   <!--<span>Illustration</span>-->
@@ -72,7 +72,7 @@
                 </a>
               </li>
               <li class="one-half animate-box" data-animate-effect="fadeIn"
-                  style="background-image: url(/static/img/14.jpg); ">
+                  style="background-image: url(static/img/14.jpg); ">
                 <a href="#" class="color-4">
                   <!--<div class="case-studies-summary">-->
                   <!--<span>Web Design</span>-->
@@ -82,7 +82,7 @@
               </li>
 
               <li class="one-third animate-box" data-animate-effect="fadeIn"
-                  style="background-image: url(/static/img/15.jpg); ">
+                  style="background-image: url(static/img/15.jpg); ">
                 <a href="#" class="color-5">
                   <!--<div class="case-studies-summary">-->
                   <!--<span>Web Design</span>-->
@@ -91,7 +91,7 @@
                 </a>
               </li>
               <li class="two-third animate-box" data-animate-effect="fadeIn"
-                  style="background-image: url(/static/img/16.jpg); ">
+                  style="background-image: url(static/img/16.jpg); ">
                 <a href="#" class="color-6">
                   <!--<div class="case-studies-summary">-->
                   <!--<span>Illustration</span>-->
@@ -126,10 +126,10 @@
           </div>
 
           <ul class="partnerQY">
-            <li class="col-xs-12 col-sm-6 col-md-3"><img src="/static/img/yd.jpeg" alt="中国移动"></li>
-            <li class="col-xs-12 col-sm-6 col-md-3"><img src="/static/img/liantogn.jpg" alt="中国联通"></li>
-            <li class="col-xs-12 col-sm-6 col-md-3"><img src="/static/img/dianxin.jpg" alt="中国电信"></li>
-            <li class="col-xs-12 col-sm-6 col-md-3"><img src="/static/img/aiqiyi.jpg" alt="爱奇艺"></li>
+            <li class="col-xs-12 col-sm-6 col-md-3"><img src="static/img/yd.jpeg" alt="中国移动"></li>
+            <li class="col-xs-12 col-sm-6 col-md-3"><img src="static/img/liantogn.jpg" alt="中国联通"></li>
+            <li class="col-xs-12 col-sm-6 col-md-3"><img src="static/img/dianxin.jpg" alt="中国电信"></li>
+            <li class="col-xs-12 col-sm-6 col-md-3"><img src="static/img/aiqiyi.jpg" alt="爱奇艺"></li>
 
           </ul>
 

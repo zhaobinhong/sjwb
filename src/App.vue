@@ -15,7 +15,7 @@
           </div>
           <div class="row">
             <div class="col-sm-4 col-xs-12">
-              <div id="gtco-logo"><img src="/static/img/pngicon64.png" alt=""><a href="index.html">四季无边</a></div>
+              <div id="gtco-logo"><img src="static/img/pngicon64.png" alt=""><a href="index.html">四季无边</a></div>
             </div>
             <div class="col-xs-8 text-right menu-1">
               <ul>
@@ -46,7 +46,7 @@
         </div>
       </nav>
 
-      <header id="gtco-header" class="gtco-cover" role="banner" style="background-image:url(/static/img/back.jpg);">
+      <header id="gtco-header" class="gtco-cover" role="banner" style="background-image:url(static/img/back.jpg);">
         <div class="overlay"></div>
         <div class="gtco-container">
           <div class="row">
