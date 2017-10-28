@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import HelloWorld from '@/components/home'
+import HelloWorld from '../components/home.vue'
 
 Vue.use(Router)
 

@@ -2,6 +2,75 @@
 
   <div>
 
+    <div id="page">
+      <nav class="gtco-nav" role="navigation">
+        <div class="gtco-container">
+          <div class="row">
+            <div class="col-md-12 text-right gtco-contact">
+              <ul class="">
+                <li><a href="#"><i class="ti-mobile"></i> +86 010-56212504</a></li>
+                <!--<li><a href="http://twitter.com/gettemplatesco"><i class="ti-twitter-alt"></i> </a></li>-->
+                <!--<li><a href="#"><i class="icon-mail2"></i></a></li>-->
+                <!--<li><a href="#"><i class="ti-facebook"></i></a></li>-->
+              </ul>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-4 col-xs-12">
+              <div id="gtco-logo"><img src="static/img/pngicon64.png" alt=""><a href="index.html">四季无边</a></div>
+            </div>
+            <div class="col-xs-8 text-right menu-1">
+              <ul>
+                <li class="active">
+                  <a href="index.html">网站首页</a>
+                </li>
+                <li>
+                  <a href="about.html">产品中心</a>
+                </li>
+                <li class="has-dropdown">
+                  <a href="services.html">公司资讯</a>
+                </li>
+                <!--<li class="has-dropdown">-->
+                <!--<a href="#">Dropdown</a>-->
+                <!--<ul class="dropdown">-->
+                <!--<li><a href="#">HTML5</a></li>-->
+                <!--<li><a href="#">CSS3</a></li>-->
+                <!--<li><a href="#">Sass</a></li>-->
+                <!--<li><a href="#">jQuery</a></li>-->
+                <!--</ul>-->
+                <!--</li>-->
+                <li><a href="portfolio.html">加入我们</a></li>
+                <li><a href="contact.html">关于</a></li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </nav>
+
+      <header id="gtco-header" class="gtco-cover" role="banner" style="background-image:url(static/img/back.jpg);">
+        <div class="overlay"></div>
+        <div class="gtco-container">
+          <div class="row">
+            <div class="col-md-12 col-md-offset-0 text-left">
+              <div class="display-t">
+                <div class="display-tc">
+                  <h1 class="animate-box" data-animate-effect="fadeInUp">游戏动漫一触即发</h1>
+                  <h2 class="animate-box" data-animate-effect="fadeInUp">游戏发行、动漫发行、音乐发行、影视发行</h2>
+                  <p class="animate-box" data-animate-effect="fadeInUp"><a href="#"
+                                                                           class="btn btn-white btn-lg btn-outline">了解更多</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+
+    </div>
+
+
     <div id="gtco-products">
       <section class="container m-footer waypoint" data-animate-up="nav-strict" data-animate-down="nav-show">
 
