@@ -5,7 +5,6 @@ import HelloWorld from '../components/home.vue'
 Vue.use(Router)
 
 export default new Router({
-  mode: 'hash',
   scorllBehavior: () => ({
     y: 0
   }),
