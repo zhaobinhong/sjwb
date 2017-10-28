@@ -8,7 +8,7 @@
           <div class="row">
             <div class="col-md-12 text-right gtco-contact">
               <ul class="">
-                <li><a href="#"><i class="ti-mobile"></i> +86 010-56212504</a></li>
+                <li><a href="#"><i class="ti-mobile"></i> 010-56212504</a></li>
                 <!--<li><a href="http://twitter.com/gettemplatesco"><i class="ti-twitter-alt"></i> </a></li>-->
                 <!--<li><a href="#"><i class="icon-mail2"></i></a></li>-->
                 <!--<li><a href="#"><i class="ti-facebook"></i></a></li>-->
