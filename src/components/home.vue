@@ -57,7 +57,7 @@
                 <div class="display-tc">
                   <h1 class="animate-box" data-animate-effect="fadeInUp">游戏动漫一触即发</h1>
                   <h2 class="animate-box" data-animate-effect="fadeInUp">游戏发行、动漫发行、音乐发行、影视发行</h2>
-                  <p class="animate-box" data-animate-effect="fadeInUp"><a href="#"
+                  <p class="animate-box" data-animate-effect="fadeInUp"><a href="#/products"
                                                                            class="btn btn-white btn-lg btn-outline">了解更多</a>
                   </p>
                 </div>
