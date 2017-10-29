@@ -27,7 +27,7 @@
                 <li>
                   <a href="#/products">产品中心</a>
                 </li>
-                <li class="has-dropdown">
+                <li class="">
                   <a href="#/information">公司资讯</a>
                 </li>
                 <!--<li class="has-dropdown">-->
@@ -271,12 +271,12 @@
     font-weight: normal;
   }
 
-  ul {
+  ul.partnerQY {
     list-style-type: none;
     padding: 0;
   }
 
-  li {
+  .partnerQY li {
     display: inline-block;
     margin: 0 10px;
   }

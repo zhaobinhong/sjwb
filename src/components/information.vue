@@ -27,7 +27,7 @@
                 <li class="">
                   <a href="#/products">产品中心</a>
                 </li>
-                <li class="active has-dropdown">
+                <li class="active ">
                   <a href="#/information">公司资讯</a>
                 </li>
                 <!--<li class="has-dropdown">-->
