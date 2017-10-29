@@ -19,10 +19,7 @@
           <div class="col-xs-8 text-right menu-1">
             <ul>
               <li class="active">
-                <a style="cursor: pointer" onclick="setTimeout(function() {
-                  window.location.href='/';
-                  window.location.reload()
-                },100)">网站首页</a>
+                <a href="/">网站首页</a>
               </li>
               <li>
                 <a style="cursor: pointer" onclick="setTimeout(function() {
