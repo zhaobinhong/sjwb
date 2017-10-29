@@ -17,18 +17,18 @@
           </div>
           <div class="row">
             <div class="col-sm-4 col-xs-12">
-              <div id="gtco-logo"><img src="static/img/pngicon64.png" alt=""><a href="index.html">四季无边</a></div>
+              <div id="gtco-logo"><img src="static/img/pngicon64.png" alt=""><a href="/">四季无边</a></div>
             </div>
             <div class="col-xs-8 text-right menu-1">
               <ul>
                 <li class="active">
-                  <a href="index.html">网站首页</a>
+                  <a href="/">网站首页</a>
                 </li>
                 <li>
-                  <a href="about.html">产品中心</a>
+                  <a href="#/products">产品中心</a>
                 </li>
                 <li class="has-dropdown">
-                  <a href="services.html">公司资讯</a>
+                  <a href="#/information">公司资讯</a>
                 </li>
                 <!--<li class="has-dropdown">-->
                 <!--<a href="#">Dropdown</a>-->
@@ -39,8 +39,8 @@
                 <!--<li><a href="#">jQuery</a></li>-->
                 <!--</ul>-->
                 <!--</li>-->
-                <li><a href="portfolio.html">加入我们</a></li>
-                <li><a href="contact.html">关于</a></li>
+                <li><a href="#/add">加入我们</a></li>
+                <li><a href="#/to">关于</a></li>
               </ul>
             </div>
           </div>
@@ -174,7 +174,7 @@
 
         <div class="row">
           <div class="col-md-4 col-md-offset-4 text-center animate-box">
-            <a href="#" class="btn btn-white btn-outline btn-lg btn-block">查看更多</a>
+            <a href="#/products" class="btn btn-white btn-outline btn-lg btn-block">查看更多</a>
           </div>
         </div>
 
