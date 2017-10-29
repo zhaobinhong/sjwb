@@ -1,6 +1,49 @@
 <template>
   <div id="app">
+    <nav class="gtco-nav" role="navigation">
+      <div class="gtco-container">
+        <div class="row">
+          <div class="col-md-12 text-right gtco-contact">
+            <ul class="">
+              <li><a href="#"><i class="ti-mobile"></i> 010-56212504</a></li>
+              <!--<li><a href="http://twitter.com/gettemplatesco"><i class="ti-twitter-alt"></i> </a></li>-->
+              <!--<li><a href="#"><i class="icon-mail2"></i></a></li>-->
+              <!--<li><a href="#"><i class="ti-facebook"></i></a></li>-->
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4 col-xs-12">
+            <div id="gtco-logo"><img src="static/img/pngicon64.png" alt=""><a href="/">四季无边</a></div>
+          </div>
+          <div class="col-xs-8 text-right menu-1">
+            <ul>
+              <li class="active">
+                <a href="/">网站首页</a>
+              </li>
+              <li>
+                <a href="#/products">产品中心</a>
+              </li>
+              <li class="">
+                <a href="#/information">公司资讯</a>
+              </li>
+              <!--<li class="has-dropdown">-->
+              <!--<a href="#">Dropdown</a>-->
+              <!--<ul class="dropdown">-->
+              <!--<li><a href="#">HTML5</a></li>-->
+              <!--<li><a href="#">CSS3</a></li>-->
+              <!--<li><a href="#">Sass</a></li>-->
+              <!--<li><a href="#">jQuery</a></li>-->
+              <!--</ul>-->
+              <!--</li>-->
+              <li><a href="#/add">加入我们</a></li>
+              <li><a href="#/to">关于</a></li>
+            </ul>
+          </div>
+        </div>
 
+      </div>
+    </nav>
 
     <router-view/>
 
@@ -52,7 +95,24 @@
 
 <script>
   export default {
-    name: 'app'
+    name: 'app',
+    methods: {
+      clickRouterLink () {
+        if (typeof (Storage) !== 'undefined') {
+          if (localStorage.selected) {
+            // 存储
+            localStorage.selected = this.selected
+          } else {
+            // 创建Web Storage
+            localStorage.selected = 1
+          }
+        } else {
+          console.log('抱歉！您的浏览器不支持 Web Storage ...')
+        }
+        // 页面刷新
+        location.reload()
+      }
+    }
   }
 </script>
 

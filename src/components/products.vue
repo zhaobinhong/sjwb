@@ -3,50 +3,50 @@
   <div>
 
     <div id="page">
-      <nav class="gtco-nav" role="navigation">
-        <div class="gtco-container">
-          <div class="row">
-            <div class="col-md-12 text-right gtco-contact">
-              <ul class="">
-                <li><a href="#"><i class="ti-mobile"></i> 010-56212504</a></li>
-                <!--<li><a href="http://twitter.com/gettemplatesco"><i class="ti-twitter-alt"></i> </a></li>-->
-                <!--<li><a href="#"><i class="icon-mail2"></i></a></li>-->
-                <!--<li><a href="#"><i class="ti-facebook"></i></a></li>-->
-              </ul>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-sm-4 col-xs-12">
-              <div id="gtco-logo"><img src="static/img/pngicon64.png" alt=""><a href="/">四季无边</a></div>
-            </div>
-            <div class="col-xs-8 text-right menu-1">
-              <ul>
-                <li>
-                  <a href="/">网站首页</a>
-                </li>
-                <li class="active">
-                  <a href="#/products">产品中心</a>
-                </li>
-                <li class="">
-                  <a href="#/information">公司资讯</a>
-                </li>
-                <!--<li class="has-dropdown">-->
-                <!--<a href="#">Dropdown</a>-->
-                <!--<ul class="dropdown">-->
-                <!--<li><a href="#">HTML5</a></li>-->
-                <!--<li><a href="#">CSS3</a></li>-->
-                <!--<li><a href="#">Sass</a></li>-->
-                <!--<li><a href="#">jQuery</a></li>-->
-                <!--</ul>-->
-                <!--</li>-->
-                <li><a href="#/add">加入我们</a></li>
-                <li><a href="#/to">关于</a></li>
-              </ul>
-            </div>
-          </div>
+      <!--<nav class="gtco-nav" role="navigation">-->
+      <!--<div class="gtco-container">-->
+      <!--<div class="row">-->
+      <!--<div class="col-md-12 text-right gtco-contact">-->
+      <!--<ul class="">-->
+      <!--<li><a href="#"><i class="ti-mobile"></i> 010-56212504</a></li>-->
+      <!--&lt;!&ndash;<li><a href="http://twitter.com/gettemplatesco"><i class="ti-twitter-alt"></i> </a></li>&ndash;&gt;-->
+      <!--&lt;!&ndash;<li><a href="#"><i class="icon-mail2"></i></a></li>&ndash;&gt;-->
+      <!--&lt;!&ndash;<li><a href="#"><i class="ti-facebook"></i></a></li>&ndash;&gt;-->
+      <!--</ul>-->
+      <!--</div>-->
+      <!--</div>-->
+      <!--<div class="row">-->
+      <!--<div class="col-sm-4 col-xs-12">-->
+      <!--<div id="gtco-logo"><img src="static/img/pngicon64.png" alt=""><a href="/">四季无边</a></div>-->
+      <!--</div>-->
+      <!--<div class="col-xs-8 text-right menu-1">-->
+      <!--<ul>-->
+      <!--<li>-->
+      <!--<a href="/">网站首页</a>-->
+      <!--</li>-->
+      <!--<li class="active">-->
+      <!--<a href="#/products">产品中心</a>-->
+      <!--</li>-->
+      <!--<li class="">-->
+      <!--<a href="#/information">公司资讯</a>-->
+      <!--</li>-->
+      <!--&lt;!&ndash;<li class="has-dropdown">&ndash;&gt;-->
+      <!--&lt;!&ndash;<a href="#">Dropdown</a>&ndash;&gt;-->
+      <!--&lt;!&ndash;<ul class="dropdown">&ndash;&gt;-->
+      <!--&lt;!&ndash;<li><a href="#">HTML5</a></li>&ndash;&gt;-->
+      <!--&lt;!&ndash;<li><a href="#">CSS3</a></li>&ndash;&gt;-->
+      <!--&lt;!&ndash;<li><a href="#">Sass</a></li>&ndash;&gt;-->
+      <!--&lt;!&ndash;<li><a href="#">jQuery</a></li>&ndash;&gt;-->
+      <!--&lt;!&ndash;</ul>&ndash;&gt;-->
+      <!--&lt;!&ndash;</li>&ndash;&gt;-->
+      <!--<li><a href="#/add">加入我们</a></li>-->
+      <!--<li><a href="#/to">关于</a></li>-->
+      <!--</ul>-->
+      <!--</div>-->
+      <!--</div>-->
 
-        </div>
-      </nav>
+      <!--</div>-->
+      <!--</nav>-->
 
       <header id="gtco-header" class="gtco-cover gtco-cover-xs" role="banner"
               style="background-image:url(static/images/img_bg_1.jpg);">
@@ -71,7 +71,7 @@
 
     <div class="gtco-section border-bottom">
       <div class="gtco-container">
-        <div class="row animate-box fadeInUp animated-fast">
+        <div class="row  fadeInUp animated-fast">
           <div class="col-md-8 col-md-offset-2 text-center gtco-heading">
             <h2>游戏下载</h2>
           </div>
@@ -168,8 +168,9 @@
                   style="background-image: url(static/img/vvv.jpg); ">
                 <a href="/鲤鱼悦漫.apk" class="color-4">
                   <div class="case-studies-summary">
-                  <h2>鲤鱼悦漫</h2>
-                    <p style="color: #fff;">《鲤鱼悦漫》最受欢迎的漫画应用,正版高清漫画平台,连载众多正版授权及原创精品漫画内容！我们致力于为作者建造良好的创作环境,为广大漫画爱好者提供更多优质的漫画内容。</p>
+                    <h2>鲤鱼悦漫</h2>
+                    <p style="color: #fff;">
+                      《鲤鱼悦漫》最受欢迎的漫画应用,正版高清漫画平台,连载众多正版授权及原创精品漫画内容！我们致力于为作者建造良好的创作环境,为广大漫画爱好者提供更多优质的漫画内容。</p>
                   </div>
                 </a>
               </li>
@@ -179,10 +180,8 @@
         </div>
 
 
-
       </div>
     </div>
-
 
   </div>
 
@@ -195,6 +194,15 @@
     data () {
       return {
         msg: 'Welcome to Your Vue.js App'
+      }
+    },
+    methods: {
+      load: function () {
+        if (location.search.indexOf('?') === -1) {
+          location.href += '?myurl'
+        } else {
+          if (location.search.indexOf('myurl') === -1) location.href += '&myurl'
+        }
       }
     }
   }
