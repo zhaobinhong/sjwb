@@ -19,13 +19,22 @@
           <div class="col-xs-8 text-right menu-1">
             <ul>
               <li class="active">
-                <a onclick="window.location.reload()" href="/">网站首页</a>
+                <a style="cursor: pointer" onclick="setTimeout(function() {
+                  window.location.href='/';
+                  window.location.reload()
+                },100)">网站首页</a>
               </li>
               <li>
-                <a onclick="window.location.reload()" href="#/products">产品中心</a>
+                <a style="cursor: pointer" onclick="setTimeout(function() {
+                  window.location.href='#/products';
+                  window.location.reload()
+                },100)">产品中心</a>
               </li>
               <li class="">
-                <a onclick="window.location.reload()" href="#/information">公司资讯</a>
+                <a style="cursor: pointer" onclick="setTimeout(function() {
+                  window.location.href='#/information';
+                  window.location.reload()
+                },100)">公司资讯</a>
               </li>
               <!--<li class="has-dropdown">-->
               <!--<a href="#">Dropdown</a>-->
@@ -36,8 +45,14 @@
               <!--<li><a href="#">jQuery</a></li>-->
               <!--</ul>-->
               <!--</li>-->
-              <li><a onclick="window.location.reload()" href="#/add">加入我们</a></li>
-              <li><a onclick="window.location.reload()" href="#/to">关于</a></li>
+              <li><a style="cursor: pointer" onclick="setTimeout(function() {
+                  window.location.href='#/add';
+                  window.location.reload()
+                },100)">加入我们</a></li>
+              <li><a style="cursor: pointer" onclick="setTimeout(function() {
+                  window.location.href='#/to';
+                  window.location.reload()
+                },100)">关于</a></li>
             </ul>
           </div>
         </div>
