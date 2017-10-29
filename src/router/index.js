@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Home from '../components/home.vue'
+import HelloWorld from '../components/home.vue'
 import Products from '../components/products.vue'
 import Information from '../components/information.vue'
 import Add from '../components/add.vue'
@@ -14,9 +14,9 @@ export default new Router({
   }),
   routes: [
     {
-      path: '/index',
-      name: 'index',
-      component: Home
+      path: '/',
+      name: 'Hello',
+      component: HelloWorld
     },
     {
       path: '/products',

@@ -14,12 +14,12 @@
         </div>
         <div class="row">
           <div class="col-sm-4 col-xs-12">
-            <div id="gtco-logo"><img src="static/img/pngicon64.png" alt=""><a href="#/index">四季无边</a></div>
+            <div id="gtco-logo"><img src="static/img/pngicon64.png" alt=""><a href="/">四季无边</a></div>
           </div>
           <div class="col-xs-8 text-right menu-1">
             <ul>
               <li class="active">
-                <a onclick="window.location.reload()" href="#/index">网站首页</a>
+                <a onclick="window.location.reload()" href="/">网站首页</a>
               </li>
               <li>
                 <a onclick="window.location.reload()" href="#/products">产品中心</a>
