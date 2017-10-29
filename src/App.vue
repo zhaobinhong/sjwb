@@ -14,18 +14,18 @@
         </div>
         <div class="row">
           <div class="col-sm-4 col-xs-12">
-            <div id="gtco-logo"><img src="static/img/pngicon64.png" alt=""><a href="/">四季无边</a></div>
+            <div id="gtco-logo"><img src="static/img/pngicon64.png" alt=""><a href="#/index">四季无边</a></div>
           </div>
           <div class="col-xs-8 text-right menu-1">
             <ul>
               <li class="active">
-                <a href="/">网站首页</a>
+                <a onclick="window.location.reload()" href="#/index">网站首页</a>
               </li>
               <li>
-                <a href="#/products">产品中心</a>
+                <a onclick="window.location.reload()" href="#/products">产品中心</a>
               </li>
               <li class="">
-                <a href="#/information">公司资讯</a>
+                <a onclick="window.location.reload()" href="#/information">公司资讯</a>
               </li>
               <!--<li class="has-dropdown">-->
               <!--<a href="#">Dropdown</a>-->
@@ -36,8 +36,8 @@
               <!--<li><a href="#">jQuery</a></li>-->
               <!--</ul>-->
               <!--</li>-->
-              <li><a href="#/add">加入我们</a></li>
-              <li><a href="#/to">关于</a></li>
+              <li><a onclick="window.location.reload()" href="#/add">加入我们</a></li>
+              <li><a onclick="window.location.reload()" href="#/to">关于</a></li>
             </ul>
           </div>
         </div>
