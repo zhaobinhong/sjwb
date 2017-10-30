@@ -56,8 +56,7 @@
             <div class="col-md-8 col-md-offset-2 text-center">
               <div class="display-t">
                 <div class="display-tc">
-                  <h1 class="animate-box fadeInUp animated-fast" data-animate-effect="fadeInUp">产品中心</h1>
-                  <h2 class="animate-box fadeInUp animated-fast" data-animate-effect="fadeInUp"></h2>
+                  <h1 id="ac" name="1" class="animate-box fadeInUp animated-fast" data-animate-effect="fadeInUp">产品中心</h1>
                 </div>
               </div>
             </div>
@@ -91,8 +90,8 @@
                     <p>【游戏语言】：简体中文</p>
                     <p>【系统】： Android2.2及以上</p>
                     <br>
-                    <p>【游戏简介</p>
-                    <p>
+                    <p>【游戏简介】</p>
+                    <p class="pad">
                       五星级平面射击游戏！游戏全程节奏紧凑，难度由易到难，除了种种的狠角色会不断出现之外， 在关卡尽头都还会有一个把关的巨型头目，因此玩家必须尽量取得像是激光、追踪飞弹等强力武器，才能够顺利过关斩将。 如果你是喜欢射击游戏的玩家，一定不要错过它。</p>
                     <div class="more m1 text-center">
                       <a href="1.apk"><input type="submit" value="下载游戏" class="btn btn-primary "></a>
@@ -109,8 +108,8 @@
                     <p>【游戏语言】：简体中文</p>
                     <p>【系统】： Android2.2及以上</p>
                     <br>
-                    <p>【游戏简介</p>
-                    <p>
+                    <p>【游戏简介】</p>
+                    <p class="pad">
                       《血战太平洋》是一个老手和菜鸟都同样会喜欢的塔防游戏。敌人来势汹汹，你需要建造火力强大的防卫塔来保护你的基地。 精美的游戏场景，炫目的特效，动感的音乐，易上手的操作及极高的游戏性，这些都可以在游戏中感受到。</p>
                     <div class="more m1 text-center">
                       <br>
@@ -128,8 +127,8 @@
                     <p>【游戏语言】：简体中文</p>
                     <p>【系统】： Android2.2及以上</p>
                     <br>
-                    <p>【游戏简介</p>
-                    <p>
+                    <p>【游戏简介】</p>
+                    <p class="pad">
                       在这个已经被僵尸包围和吞噬的世界中，你是幸存者之一。在寻找存活出路的旅途中，你会遇到形形色色的幸存同胞， 而选择是否帮助他们或者接受他们的帮助将决定剧情的走向，也突出了游戏的主旨——即便世界将要毁灭，人性依然存在。</p>
                     <div class="more m1 text-center">
                       <a href="3.apk"><input type="submit" value="下载游戏" class="btn btn-primary "></a>
@@ -336,6 +335,10 @@
   .partnerQY li img {
     display: inline-block;
     margin: 0 auto;
+  }
+
+  .pad{
+    padding:0px 10px;
   }
 
 </style>

@@ -17,14 +17,16 @@
             <div id="gtco-logo"><img src="static/img/pngicon64.png" alt=""><a href="/">四季无边</a></div>
           </div>
           <div class="col-xs-8 text-right menu-1">
-            <ul>
-              <li class="active">
+            <ul id="navActive">
+              <li class="">
                 <a href="/">网站首页</a>
               </li>
               <li>
                 <a style="cursor: pointer" onclick="setTimeout(function() {
                   window.location.href='#/products';
+                  this.className = 'active'
                   window.location.reload()
+
                 },100)">产品中心</a>
               </li>
               <li class="">

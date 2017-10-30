@@ -56,7 +56,7 @@
             <div class="col-md-8 col-md-offset-2 text-center">
               <div class="display-t">
                 <div class="display-tc">
-                  <h1 class="animate-box fadeInUp animated-fast" data-animate-effect="fadeInUp">资讯中心</h1>
+                  <h1 id="ac" name="2" class="animate-box fadeInUp animated-fast" data-animate-effect="fadeInUp">资讯中心</h1>
                   <h2 class="animate-box fadeInUp animated-fast" data-animate-effect="fadeInUp"></h2>
                 </div>
               </div>
