@@ -1937,3 +1937,7 @@ form label {
   border: 1px solid #dadee1;
   max-width: 100%;
 }
+
+ul li {
+  list-style: none;
+}
