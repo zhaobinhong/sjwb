@@ -194,45 +194,10 @@ $id  = empty($id)  ? 0 : intval($id);
 			if($cfg_comment == 'Y')
 			{
 			?>
-			<!-- 评论区域开始 -->
-			<ul class="commlist">
-				<?php
-				$dosql->Execute("SELECT * FROM `#@__usercomment` WHERE molds=1 AND aid=$id AND isshow=1 ORDER BY id DESC");
-				while($row = $dosql->GetArray())
-				{
-					echo '<li><span class="uname">'.$row['uname'].'</span><p>'.$row['body'].'</p><span class="time">'.GetDateTime($row['time']).'</span></li>';
-				}
-				?>
-			</ul>
-			<div class="commnum">
-				<span>
-					<i>
-					<?php
-					$r = $dosql->GetOne("SELECT COUNT(id) as n FROM `#@__usercomment` WHERE molds=1 AND aid=$id AND isshow=1 ORDER BY id DESC");
-					echo $r['n'];
-					?>
-					</i>
-					条评论
-				</span>
-			</div>
-			<div class="commnet">
-				<form name="form" id="form" action="" method="post">
-					<div class="msg">
-						<textarea name="comment" id="comment">说点什么吧...</textarea>
-					</div>
-					<div class="toolbar">
-						<div class="options">
-							不想登录？直接点击发布即可作为游客留言。
-						</div>
-						<button class="button" type="button">发 布</button>
-					</div>
-				</form>
-			</div>
-			<!-- 评论区域结束 -->
 
 			<hr>
 
-			
+
 			<?php
 			}
 			}
