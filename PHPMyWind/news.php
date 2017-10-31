@@ -75,42 +75,42 @@ $cid = empty($cid) ? 4 : intval($cid);
 <div id="gtco-history" class="gtco-section border-bottom animate-box fadeInUp animated-fast">
 		<div class="gtco-container">
 
+			<div class="row">
+<div class="subBody">
+	<div class="OneOfTwo">
+		<div class="subCont">
+			<ul class="news_list2">
+				<?php
 
-		<div class="subBody">
-    	<div class="OneOfTwo">
-    		<div class="subCont">
-    			<ul class="news_list2">
-    				<?php
+				$dopage->GetPage("SELECT * FROM `#@__infolist` WHERE (classid=$cid OR parentstr LIKE '%,$cid,%') AND delstate='' AND checkinfo=true ORDER BY orderid DESC",8);
+				while($row = $dosql->GetArray())
+				{
+					if($row['linkurl']=='' and $cfg_isreurl!='Y') $gourl = 'newsshow.php?cid='.$row['classid'].'&id='.$row['id'];
+					else if($cfg_isreurl=='Y') $gourl = 'newsshow-'.$row['classid'].'-'.$row['id'].'-1.html';
+					else $gourl = $row['linkurl'];
 
-    				$dopage->GetPage("SELECT * FROM `#@__infolist` WHERE (classid=$cid OR parentstr LIKE '%,$cid,%') AND delstate='' AND checkinfo=true ORDER BY orderid DESC",8);
-    				while($row = $dosql->GetArray())
-    				{
-    					if($row['linkurl']=='' and $cfg_isreurl!='Y') $gourl = 'newsshow.php?cid='.$row['classid'].'&id='.$row['id'];
-    					else if($cfg_isreurl=='Y') $gourl = 'newsshow-'.$row['classid'].'-'.$row['id'].'-1.html';
-    					else $gourl = $row['linkurl'];
-
-    					$row2 = $dosql->GetOne("SELECT `classname` FROM `#@__infoclass` WHERE `id`=".$row['classid']);
-    					if($cfg_isreurl!='Y') $gourl2 = 'news.php?cid='.$row['classid'];
-    					else $gourl2 = 'news-'.$row['classid'].'-1.html';
-    				?>
-    			<li> <span class="title"><a href="<?php echo $gourl; ?>" style="color:<?php echo $row['colorval']; ?>;font-weight:<?php echo $row['boldval']; ?>;"><?php echo $row['title']; ?></a></span><span class="hits">点击次数：<?php echo $row['hits']; ?></span>
-    			<br />
-    			<br />
-    				<span class="time"><?php echo GetDateTime($row['posttime']); ?></span> </li>
-    			<?php
-    				}
-    				?>
-    			</ul>
-    			<?php echo $dopage->GetList(); ?>
-    		</div>
-    	</div>
-
-
-</div>
+					$row2 = $dosql->GetOne("SELECT `classname` FROM `#@__infoclass` WHERE `id`=".$row['classid']);
+					if($cfg_isreurl!='Y') $gourl2 = 'news.php?cid='.$row['classid'];
+					else $gourl2 = 'news-'.$row['classid'].'-1.html';
+				?>
+			<li> <span class="title"><a href="<?php echo $gourl; ?>" style="color:<?php echo $row['colorval']; ?>;font-weight:<?php echo $row['boldval']; ?>;"><?php echo $row['title']; ?></a></span><span class="hits">点击次数：<?php echo $row['hits']; ?></span>
+			<br />
+			<br />
+				<span class="time"><?php echo GetDateTime($row['posttime']); ?></span> </li>
+			<?php
+				}
+				?>
+			</ul>
+			<?php echo $dopage->GetList(); ?>
 		</div>
 	</div>
 
+</div>
+			</div>
 
+
+		</div>
+	</div>
 
 
 <!-- /mainbody-->
