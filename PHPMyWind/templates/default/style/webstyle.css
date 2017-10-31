@@ -155,7 +155,7 @@
 
 .news_list2 li{height:80px;line-height:25px;border-bottom:1px solid #eff2f4;padding:6px 0 5px 0;color:#a0a0a0;}
 .news_list2 li span.title a{
-  font-size: 20px;float:left;color:#0f5fbb;font-weight:bold;}
+  font-size: 20px;float:left;font-weight:bold;}
 .news_list2 li span.title a:hover{text-decoration:none;color:#000;}
 .news_list2 li span.time{float:left;}
 .news_list2 li span.hits{float:right;}
