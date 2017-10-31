@@ -71,6 +71,11 @@ $id  = empty($id)  ? 0 : intval($id);
 <?php require_once('header.php'); ?>
 <!-- /header-->
 <!-- mainbody-->
+
+<div id="gtco-history" class="gtco-section border-bottom animate-box fadeInUp animated-fast">
+		<div class="gtco-container">
+
+			<div class="row">
 <div class="subBody">
 
 	<div class="OneOfTwo">
@@ -195,8 +200,6 @@ $id  = empty($id)  ? 0 : intval($id);
 			{
 			?>
 
-			<hr>
-
 
 			<?php
 			}
@@ -206,6 +209,12 @@ $id  = empty($id)  ? 0 : intval($id);
 		<!-- 详细区域结束 -->
 	</div>
 </div>
+
+			</div>
+
+
+		</div>
+	</div>
 <!-- /mainbody-->
 <!-- footer-->
 <?php require_once('footer.php'); ?>
