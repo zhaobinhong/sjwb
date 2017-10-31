@@ -85,7 +85,7 @@
 /*子页样式*/
 .subBanner, .subBody{width:960px;margin:0 auto;}
 .subBody{margin-bottom:25px;}
-.subBody .OneOfTwo{width:100px;float:left;}
+.subBody .OneOfTwo{width:100%;float:left;}
 .subBody .TwoOfTwo{width:175px;float:right;}
 .subBody .OneOfTwos{width:175px;float:left;}
 .subBody .TwoOfTwos{width:750px;float:right;}
