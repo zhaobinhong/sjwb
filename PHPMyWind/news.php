@@ -90,7 +90,9 @@ $cid = empty($cid) ? 4 : intval($cid);
 					if($cfg_isreurl!='Y') $gourl2 = 'news.php?cid='.$row['classid'];
 					else $gourl2 = 'news-'.$row['classid'].'-1.html';
 				?>
-			<li> <span class="title"><a href="<?php echo $gourl; ?>" style="color:<?php echo $row['colorval']; ?>;font-weight:<?php echo $row['boldval']; ?>;"><?php echo $row['title']; ?></a></span><span class="hits">点击次数：<?php echo $row['hits']; ?></span><br />
+			<li> <span class="title"><a href="<?php echo $gourl; ?>" style="color:<?php echo $row['colorval']; ?>;font-weight:<?php echo $row['boldval']; ?>;"><?php echo $row['title']; ?></a></span><span class="hits">点击次数：<?php echo $row['hits']; ?></span>
+			<br />
+			<br />
 				<span class="time"><?php echo GetDateTime($row['posttime']); ?></span> <span class="class">分类：<a href="<?php echo $gourl2; ?>"><?php echo $row2['classname']; ?></a></span> </li>
 			<?php
 				}
