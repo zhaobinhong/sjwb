@@ -34,11 +34,9 @@
                                        <ul class="dropdown" style="display: none;">
                                          <li><a style="cursor: pointer" onclick="setTimeout(function() {
                                          window.location.href='#/protocol';
-                                         window.location.reload()
                                        },100)">服务协议</a></li>
                                          <li><a style="cursor: pointer" onclick="setTimeout(function() {
                                          window.location.href='#/guardianship';
-                                         window.location.reload()
                                        },100)">家长监护</a></li>
                                        </ul>
                                      </li>
