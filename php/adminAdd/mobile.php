@@ -35,10 +35,7 @@ $(function(){
 					<li>手机站的栏目是根据栏目中的栏目自动循环出来的</li>
 					<li>目前自动生成的栏目内容包括单页、列表、图片</li>
 				</ul>
-				<ul class="tabMobile">
-					<li><a href="javascript:;" class="on" id="h">竖屏</a></li>
-					<li><a href="javascript:;" id="s">横屏</a></li>
-				</ul>
+
 				<br />
 				<div class="cl"></div>
 			</div></td>
