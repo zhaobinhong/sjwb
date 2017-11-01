@@ -27,7 +27,7 @@ $(function(){
 <table width="100%" border="0" cellspacing="0" cellpadding="0">
 	<tr>
 		<td width="300" valign="top"><div class="preMobile" id="preMobile">
-				<iframe frameborder="0" src="../4g.php" scrolling="yes"></iframe>
+				<iframe frameborder="0" src="../news.php" scrolling="yes"></iframe>
 			</div></td>
 		<td valign="top"><div class="txtMobile">
 				<ul class="tipsList">
