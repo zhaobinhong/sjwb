@@ -24,15 +24,12 @@
               <li>
                 <a style="cursor: pointer" onclick="setTimeout(function() {
                   window.location.href='#/products';
-                  this.className = 'active'
                   window.location.reload()
-
                 },100)">产品中心</a>
               </li>
               <li class="">
                 <a style="cursor: pointer" onclick="setTimeout(function() {
                   window.location.href='news.php';
-                  window.location.reload()
                 },100)">公司资讯</a>
               </li>
               <!--<li class="has-dropdown">-->

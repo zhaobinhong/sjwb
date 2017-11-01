@@ -20,32 +20,21 @@
                        </li>
                        <li>
                          <a style="cursor: pointer" onclick="setTimeout(function() {
-                           window.location.href='#/products';
-                           this.className = 'active'
+                           window.location.href='/#/products';
                            window.location.reload()
                          },100)">产品中心</a>
                        </li>
                        <li class="">
                          <a style="cursor: pointer" onclick="setTimeout(function() {
                            window.location.href='news.php';
-                           window.location.reload()
                          },100)">公司资讯</a>
                        </li>
-                       <!--<li class="has-dropdown">-->
-                       <!--<a href="#">Dropdown</a>-->
-                       <!--<ul class="dropdown">-->
-                       <!--<li><a href="#">HTML5</a></li>-->
-                       <!--<li><a href="#">CSS3</a></li>-->
-                       <!--<li><a href="#">Sass</a></li>-->
-                       <!--<li><a href="#">jQuery</a></li>-->
-                       <!--</ul>-->
-                       <!--</li>-->
                        <li><a style="cursor: pointer" onclick="setTimeout(function() {
-                           window.location.href='#/add';
+                           window.location.href='/#/add';
                            window.location.reload()
                          },100)">加入我们</a></li>
                        <li><a style="cursor: pointer" onclick="setTimeout(function() {
-                           window.location.href='#/to';
+                           window.location.href='/#/to';
                            window.location.reload()
                          },100)">关于</a></li>
                      </ul>
