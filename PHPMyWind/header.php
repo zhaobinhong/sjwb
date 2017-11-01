@@ -21,7 +21,6 @@
                        <li>
                          <a style="cursor: pointer" onclick="setTimeout(function() {
                            window.location.href='/#/products';
-                           window.location.reload()
                          },100)">产品中心</a>
                        </li>
                        <li class="">
@@ -31,11 +30,9 @@
                        </li>
                        <li><a style="cursor: pointer" onclick="setTimeout(function() {
                            window.location.href='/#/add';
-                           window.location.reload()
                          },100)">加入我们</a></li>
                        <li><a style="cursor: pointer" onclick="setTimeout(function() {
                            window.location.href='/#/to';
-                           window.location.reload()
                          },100)">关于</a></li>
                      </ul>
                    </div>
