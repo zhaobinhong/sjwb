@@ -30,32 +30,32 @@ $id  = empty($id)  ? 0 : intval($id);
 
 
 
-  <link rel="shortcut icon" href="../static/images/favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="static/images/favicon.ico" type="image/x-icon">
 
   <!-- Animate.css -->
-  <link rel="stylesheet" href="../static/css/animate.css">
+  <link rel="stylesheet" href="static/css/animate.css">
   <!-- Icomoon Icon Fonts-->
-  <link rel="stylesheet" href="../static/css/icomoon.css">
+  <link rel="stylesheet" href="static/css/icomoon.css">
   <!-- Themify Icons-->
-  <link rel="stylesheet" href="../static/css/themify-icons.css">
+  <link rel="stylesheet" href="static/css/themify-icons.css">
   <!-- Bootstrap  -->
-  <link rel="stylesheet" href="../static/css/bootstrap.css">
+  <link rel="stylesheet" href="static/css/bootstrap.css">
 
   <!-- Magnific Popup -->
-  <link rel="stylesheet" href="../static/css/magnific-popup.css">
+  <link rel="stylesheet" href="static/css/magnific-popup.css">
 
   <!-- Owl Carousel  -->
-  <link rel="stylesheet" href="../static/css/owl.carousel.min.css">
-  <link rel="stylesheet" href="../static/css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="static/css/owl.carousel.min.css">
+  <link rel="stylesheet" href="static/css/owl.theme.default.min.css">
 
   <!-- Theme style  -->
-  <link rel="stylesheet" href="../static/css/style.css">
+  <link rel="stylesheet" href="static/css/style.css">
 
   <!-- Modernizr JS -->
-  <script src="../static/js/modernizr-2.6.2.min.js"></script>
+  <script src="static/js/modernizr-2.6.2.min.js"></script>
   <!-- FOR IE9 below -->
   <!--[if lt IE 9]>
-  <script src="../static/js/respond.min.js"></script>
+  <script src="static/js/respond.min.js"></script>
   <![endif]-->
 
 
@@ -219,5 +219,26 @@ $id  = empty($id)  ? 0 : intval($id);
 <!-- footer-->
 <?php require_once('footer.php'); ?>
 <!-- /footer-->
+
+<!-- built files will be auto injected -->
+
+<!-- jQuery -->
+<script src="static/js/jquery.min.js"></script>
+<!-- jQuery Easing -->
+<script src="static/js/jquery.easing.1.3.js"></script>
+<!-- Bootstrap -->
+<script src="static/js/bootstrap.min.js"></script>
+<!-- Waypoints -->
+<script src="static/js/jquery.waypoints.min.js"></script>
+<!-- Carousel -->
+<script src="static/js/owl.carousel.min.js"></script>
+<!-- countTo -->
+<script src="static/js/jquery.countTo.js"></script>
+<!-- Magnific Popup -->
+<script src="static/js/jquery.magnific-popup.min.js"></script>
+<script src="static/js/magnific-popup-options.js"></script>
+<!-- Main -->
+<script src="static/js/main.js"></script>
+<script src="static/js/index.js"></script>
 </body>
 </html>
