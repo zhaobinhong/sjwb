@@ -32,15 +32,19 @@
                   window.location.href='/php/news.php';
                 },100)">公司资讯</a>
               </li>
-              <!--<li class="has-dropdown">-->
-              <!--<a href="#">Dropdown</a>-->
-              <!--<ul class="dropdown">-->
-              <!--<li><a href="#">HTML5</a></li>-->
-              <!--<li><a href="#">CSS3</a></li>-->
-              <!--<li><a href="#">Sass</a></li>-->
-              <!--<li><a href="#">jQuery</a></li>-->
-              <!--</ul>-->
-              <!--</li>-->
+              <li class="has-dropdown">
+                <a style="cursor: pointer">协议与监护</a>
+                <ul class="dropdown" style="display: none;">
+                  <li><a style="cursor: pointer" onclick="setTimeout(function() {
+                  window.location.href='#/protocol';
+                  window.location.reload()
+                },100)">服务协议</a></li>
+                  <li><a style="cursor: pointer" onclick="setTimeout(function() {
+                  window.location.href='#/guardianship';
+                  window.location.reload()
+                },100)">家长监护</a></li>
+                </ul>
+              </li>
               <li><a style="cursor: pointer" onclick="setTimeout(function() {
                   window.location.href='#/add';
                   window.location.reload()

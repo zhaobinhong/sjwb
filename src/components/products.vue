@@ -112,7 +112,6 @@
                     <p class="pad">
                       《血战太平洋》是一个老手和菜鸟都同样会喜欢的塔防游戏。敌人来势汹汹，你需要建造火力强大的防卫塔来保护你的基地。 精美的游戏场景，炫目的特效，动感的音乐，易上手的操作及极高的游戏性，这些都可以在游戏中感受到。</p>
                     <div class="more m1 text-center">
-                      <br>
                       <a href="2.apk"><input type="submit" value="下载游戏" class="btn btn-primary "></a>
                     </div>
                   </div>
@@ -181,6 +180,25 @@
 
       </div>
     </div>
+
+
+
+
+    <div id="gtco-counter" class="gtco-section animated border-bottom">
+      <div class="gtco-container">
+
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2 text-center gtco-heading animate-box fadeInUp animated-fast">
+            <h2>健康忠告</h2>
+            <p>抵制不良游戏　拒绝盗版游戏</p>
+            <p>注意自我保护　谨防受骗上当</p>
+            <p>适度游戏益脑　沉迷游戏伤身</p>
+            <p>合理安排时间　享受健康生活</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
 
   </div>
 

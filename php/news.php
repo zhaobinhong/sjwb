@@ -9,7 +9,7 @@ $cid = empty($cid) ? 4 : intval($cid);
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>四季无边</title>
+  <title>北京四季无边科技有限公司</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="Hovace" content="北京四季无边科技有限公司"/>
   <meta name="keywords"

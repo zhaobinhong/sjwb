@@ -5,6 +5,8 @@ import Products from '../components/products.vue'
 import Information from '../components/information.vue'
 import Add from '../components/add.vue'
 import To from '../components/to.vue'
+import Protocol from '../components/protocol.vue'
+import Guardianship from '../components/guardianship.vue'
 
 Vue.use(Router)
 
@@ -37,6 +39,16 @@ export default new Router({
       path: '/to',
       name: 'to',
       component: To
+    },
+    {
+      path: '/protocol',
+      name: 'protocol',
+      component: Protocol
+    },
+    {
+      path: '/guardianship',
+      name: 'guardianship',
+      component: Guardianship
     }
   ]
 })
