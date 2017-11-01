@@ -26,7 +26,7 @@
                        </li>
                        <li class="">
                          <a style="cursor: pointer" onclick="setTimeout(function() {
-                           window.location.href='news.php';
+                           window.location.href='/php/news.php';
                          },100)">公司资讯</a>
                        </li>
                        <li><a style="cursor: pointer" onclick="setTimeout(function() {
