@@ -1,8 +1,5 @@
 <?php
 require_once(dirname(__FILE__).'/include/config.inc.php');
-
-//初始化参数检测正确性
-$cid = empty($cid) ? 4 : intval($cid);
 ?>
 <!DOCTYPE html>
 <html>
@@ -14,7 +11,6 @@ $cid = empty($cid) ? 4 : intval($cid);
   <meta name="Hovace" content="北京四季无边科技有限公司"/>
   <meta name="keywords"
         content="free website templates, free html5, free bootstrap, free website template, html5, css3, mobile first, responsive"/>
-<?php echo GetHeader(1,$cid); ?>
 
           <!-- Facebook and Twitter integration -->
           <meta property="og:title" content=""/>
