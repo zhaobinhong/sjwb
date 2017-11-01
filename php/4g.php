@@ -24,21 +24,21 @@ $id  = isset($id)  ? intval($id)  : 0;   //显示内容ID
 //首页
 if($m == 'index')
 {
-	require_once(PHPMYWIND_TEMP.'/default/mobile/news.php');
+	require_once(PHPMYWIND_TEMP.'../news.php');
 	exit();
 }
 
 //二级页
 else if($m == 'info' or $m == 'list' or $m == 'img')
 {
-	require_once(PHPMYWIND_TEMP.'/default/mobile/news.php');
+	require_once(PHPMYWIND_TEMP.'../news.php');
 	exit();
 }
 
 //详细页
 else if($m == 'show')
 {
-	require_once(PHPMYWIND_TEMP.'/default/mobile/news.php');
+	require_once(PHPMYWIND_TEMP.'../news.php');
 	exit();
 }
 ?>
