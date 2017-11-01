@@ -83,7 +83,7 @@
 
 
 /*子页样式*/
-.subBanner, .subBody{width:960px;margin:0 auto;}
+.subBanner, .subBody{margin:0 auto;}
 .subBody{margin-bottom:25px;}
 .subBody .OneOfTwo{width:100%;float:left;}
 .subBody .TwoOfTwo{width:175px;float:right;}
@@ -153,7 +153,7 @@
 .news_list span{float:right;font-family:Arial;color:#5868bf;}
 .news_list strong{padding-right:5px;font-size:8px;color:#fc0000;}
 
-.news_list2 li{height:80px;line-height:25px;border-bottom:1px solid #eff2f4;padding:6px 0 5px 0;color:#a0a0a0;}
+.news_list2 li{height:80px;line-height:25px;border-bottom:1px solid #eff2f4;padding:5px 40px 5px 0px;color:#a0a0a0;}
 .news_list2 li span.title a{
   font-size: 20px;float:left;font-weight:bold;}
 .news_list2 li span.title a:hover{text-decoration:none;color:#000;}
@@ -204,7 +204,7 @@
 /*列表内容页*/
 .listConts{line-height:26px;color:#666;}
 .listConts .title{padding-top:2em;font-size:24px;text-align:center;line-height:40px;color:#000;}
-.listConts .info{width:380px;height:27px;line-height:28px;text-align:center;margin:15px auto;border:1px solid #ccc;border-left:none;border-right:none;color:#666;}
+.listConts .info{height:27px;line-height:28px;text-align:center;margin:15px auto;border:1px solid #ccc;border-left:none;border-right:none;color:#666;}
 .listConts .info small{margin-left:8px;margin-right:3px;color:#999;font-size:12px;}
 .listConts .info .small,.info .big{font-family:Georgia;font-weight:bold;cursor:pointer;}
 .listConts .info .small{font-size:10px;padding-right:3px;}
@@ -412,3 +412,14 @@ _position:absolute;_bottom:auto;_top:expression(eval(document.documentElement.sc
 *html{background-image:url(about:blank);background-attachment:fixed;}/*解决IE6下滚动抖动的问题*/
 .tbox{width:50px;float:right;position:fixed;right:10px;bottom:15px;_position:absolute;_bottom:auto;_top:expression(eval(document.documentElement.scrollTop+document.documentElement.clientHeight-this.offsetHeight-(parseInt(this.currentStyle.marginTop,10)||0)-(parseInt(this.currentStyle.marginBottom,10)||0)));_margin-bottom:15px;display:none;}/*解决IE6下不兼容 position:fixed 的问题*/
 .tbox #gotop{width:50px;height:50px;background:url(../images/icon.png) no-repeat 0 0;display:block;}
+
+
+.nopadding {
+  padding: 0px;
+}
+
+
+
+.listConts{
+  padding: 0 40px;
+}

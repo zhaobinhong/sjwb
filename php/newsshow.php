@@ -76,7 +76,7 @@ $id  = empty($id)  ? 0 : intval($id);
 		<div class="gtco-container">
 
 			<div class="row">
-<div class="subBody">
+
 
 	<div class="OneOfTwo">
 		<!-- 详细区域开始 -->
@@ -146,12 +146,11 @@ $id  = empty($id)  ? 0 : intval($id);
 					echo '网站资料更新中...';
 				?>
 			</div>
-			<div class="author"><?php echo $row['source']; ?> (编辑：<?php echo $row['author']; ?>)</div>
 			<!-- 内容区域结束 -->
 			<!-- 相关文章开始 -->
 			<div class="preNext">
 				<div class="line"><strong></strong></div>
-				<ul class="text">
+				<ul class="text nopadding">
 				<?php
 
 				//获取上一篇信息
@@ -187,10 +186,7 @@ $id  = empty($id)  ? 0 : intval($id);
 				}
 				?>
 				</ul>
-				<ul class="actBox">
-					<li id="act-pus"><a href="javascript:;" onclick="<?php $c_uname = isset($_COOKIE['username']) ? AuthCode($_COOKIE['username']) : '';if($c_uname != ''){echo 'AddUserFavorite()';}else{echo 'AddFavorite();';} ?>">收藏</a></li>
-					<li id="act-pnt"><a href="javascript:;" onclick="window.print();">打印</a></li>
-				</ul>
+
                 <input type="hidden" name="aid" id="aid" value="<?php echo $id; ?>" />
 				<input type="hidden" name="molds" id="molds" value="1" />
 			</div>
@@ -208,7 +204,7 @@ $id  = empty($id)  ? 0 : intval($id);
 		</div>
 		<!-- 详细区域结束 -->
 	</div>
-</div>
+
 
 			</div>
 

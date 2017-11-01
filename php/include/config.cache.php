@@ -1,8 +1,8 @@
 <?php	if(!defined('IN_PHPMYWIND')) exit('Request Error!');
 
 $cfg_webname = '我的网站';
-$cfg_weburl = 'http://localhost:8081';
-$cfg_webpath = '/PHPMyWind';
+$cfg_weburl = 'http://localhost:8888';
+$cfg_webpath = '/php';
 $cfg_author = '';
 $cfg_generator = 'PHPMyWind CMS';
 $cfg_seotitle = '';
@@ -50,7 +50,7 @@ $cfg_reurl_goods = '{goods}-{cid}-{tid}-{page}.html';
 $cfg_reurl_goodsshow = '{goodsshow}-{cid}-{tid}-{id}-{page}.html';
 $cfg_reurl_vote = '{vote}-{id}.html';
 $cfg_reurl_custom = '{file}.html';
-$cfg_auth_key = 'Y7E0sEvprAPHqH3J';
+$cfg_auth_key = 'vI7F9942bh2UvdBb';
 $cfg_alipay_uname = '';
 $cfg_alipay_partner = '';
 $cfg_alipay_key = '';

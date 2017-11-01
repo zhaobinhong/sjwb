@@ -9,15 +9,14 @@ function tBox(){
 }
 
 $(document).ready(function(e){
-	$("body").append('<div class="tbox"><a href="javascript:void(0)" id="gotop"></a></div>');
-	
+
 	tBox();
 
 	$("#gotop").click(function(){
-		$(document).scrollTop(0);	
+		$(document).scrollTop(0);
 	})
 });
 
 $(window).scroll(function(e){
-	tBox();		
+	tBox();
 })
