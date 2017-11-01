@@ -33,10 +33,10 @@
                                        <a style="cursor: pointer">协议与监护</a>
                                        <ul class="dropdown" style="display: none;">
                                          <li><a style="cursor: pointer" onclick="setTimeout(function() {
-                                         window.location.href='#/protocol';
+                                         window.location.href='/#/protocol';
                                        },100)">服务协议</a></li>
                                          <li><a style="cursor: pointer" onclick="setTimeout(function() {
-                                         window.location.href='#/guardianship';
+                                         window.location.href='/#/guardianship';
                                        },100)">家长监护</a></li>
                                        </ul>
                                      </li>
