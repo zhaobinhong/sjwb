@@ -6,8 +6,8 @@
                    <div class="col-md-12 text-right gtco-contact">
                      <ul class="">
                        <li><a href="#"><i class="ti-mobile"></i> 010-56212504</a></li>
-                       <li><a href="#/registration">注册</a></li>
-                       <li><a href="#/login">登录</a></li>
+                       <li><a href="/#/registration">注册</a></li>
+                       <li><a href="/#/login">登录</a></li>
                      </ul>
                    </div>
                  </div>
@@ -43,10 +43,10 @@
                                        </ul>
                                      </li>
                        <li><a style="cursor: pointer" onclick="setTimeout(function() {
-                                         window.location.href='#/disputes';
+                                         window.location.href='/#/disputes';
                                        },100)">交易纠纷处理</a></li>
                                      <li><a style="cursor: pointer" onclick="setTimeout(function() {
-                                         window.location.href='#/addiction';
+                                         window.location.href='/#/addiction';
                                        },100)">防沉迷系统</a></li>
                        <li><a style="cursor: pointer" onclick="setTimeout(function() {
                            window.location.href='/#/add';
