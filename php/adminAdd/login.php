@@ -313,7 +313,7 @@ $(function(){
 		<?php if(strstr(GetCurUrl(), '/admin/login')) echo '提示：您的后台路径为/<i>admin</i>/，建议更改为更加安全的路径！'; ?>
 		</span>
 		<?php if($cfg_author != '') echo '<i>Author : '.$cfg_author.'</i><span class="line">|</span>'; ?>
-		访问 <i><a href="http://phpmywind.com/" target="_blank" class="link">phpMyWind.com</a></i><span class="line">|</span><a href="http://phpmywind.com/bbs/" target="_blank">帮助</a></div>
+	</div>
 </div>
 <div class="loginWarp">
 	<div class="loginArea">
@@ -349,10 +349,9 @@ $(function(){
 				<input type="submit" class="loginBtn" value="登 陆" style="cursor:pointer;" />
 				<input type="hidden" name="dopost" value="login" />
 			</form>
-			<div class="loginThanks">感谢您使用<span>PHPMyWind</span>产品</div>
 		</div>
 	</div>
 </div>
-<div class="loginCopyright">© 2017 phpMyWind.com</div>
+<div class="loginCopyright">© 2017 四季无边</div>
 </body>
 </html>

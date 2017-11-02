@@ -44,7 +44,7 @@ input[type="button"]:focus,input[type="submit"]:focus{outline:none;}
 /*登录页面*/
 .loginBody{margin:0;padding:0;overflow:hidden;}
 .loginBody .loginTop{height:240px;background:url(../images/loginbg/loginbg_01.png) center 0 no-repeat;}
-.loginBody .loginTop .logo{position:absolute;top:15px;left:20px;width:206px;height:43px;background:url(../images/logo.png) 0 bottom no-repeat;z-index:999;}
+.loginBody .loginTop .logo{position:absolute;top:15px;left:20px;width:206px;height:43px;background:url(../images/icon.png) 0 bottom no-repeat;z-index:999;background-size: 66%;}
 .loginBody .loginTop .logo a{display:block;width:206px;height:43px;}
 .loginBody .loginTop .text{position:absolute;top:20px;right:20px;font-size:12px;color:#929fa6;z-index:999;text-shadow:0px 0px 2px #f5f5f5;}
 .loginBody .loginTop .text a{color:#929fa6;}

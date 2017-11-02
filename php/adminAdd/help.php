@@ -93,7 +93,7 @@ p strong{color:#00F;font-weight:normal;}
 	Array
 	(
 	[id] => 4
-	[classname] => 新闻动态
+	[classname] => 公司资讯
 	[parentid] => 0
 	[parentstr] => 0,
 	[linkurl] =>
@@ -300,8 +300,7 @@ p strong{color:#00F;font-weight:normal;}
 	<div class="hr_10"></div>
 	<p>　　PHPMyWind 从2010年开发至今已有4年时间，其间已经过4次重写。结构，代码写法逐步成熟。系统内置多个类以及函数，大幅提升开发速度。如目前对系统类使用不惯得同学们，也可以采用PHP内置原生函数开发。每个前台页面保证在头部调用 '/include/config.inc.php' 即可初始化系统代码，进行开发工作。前台只作为示例展示，与后台关联程度不高，但也可直接使用。目前您可视PHPMyWind为一款CMS核心，在它之上制作丰富的网站。</p>
 	<div class="hr_10"></div>
-	<p>　　更多关于我们的信息可访问 <a href="http://phpmywind.com/" target="_blank">http://phpmywind.com</a></p>
+
 </div>
-<div class="footer">© 2017 phpMyWind.com</div>
 </body>
 </html>

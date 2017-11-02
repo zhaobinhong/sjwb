@@ -3,7 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>列表信息管理</title>
+<title>公司资讯管理</title>
 <link href="templates/style/admin.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript" src="templates/js/jquery.min.js"></script>
 <script type="text/javascript" src="templates/js/listajax.js"></script>
@@ -15,7 +15,7 @@ $(function(){
 </script>
 </head>
 <body>
-<div class="topToolbar"> <span class="title">列表信息管理</span>
+<div class="topToolbar"> <span class="title">公司资讯管理</span>
 <span class="alltype">
 	<a href="javascript:;" onclick="GetType('','查看全部',$(this))" class="btn">查看全部</a>
 	<span class="drop">

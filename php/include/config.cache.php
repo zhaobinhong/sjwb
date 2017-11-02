@@ -1,14 +1,14 @@
 <?php	if(!defined('IN_PHPMYWIND')) exit('Request Error!');
 
 $cfg_webname = '我的网站';
-$cfg_weburl = 'http://localhost:8888';
+$cfg_weburl = 'http://10.7.7.170:8888';
 $cfg_webpath = '/php';
 $cfg_author = '';
 $cfg_generator = 'PHPMyWind CMS';
 $cfg_seotitle = '';
 $cfg_keyword = '';
 $cfg_description = '';
-$cfg_copyright = 'Copyright © 2010 - 2017 phpMyWind.com All Rights Reserved';
+$cfg_copyright = 'Copyright © 2010 - 2017 四季无边 ';
 $cfg_hotline = '400-800-8888';
 $cfg_icp = '';
 $cfg_webswitch = 'Y';
@@ -50,7 +50,7 @@ $cfg_reurl_goods = '{goods}-{cid}-{tid}-{page}.html';
 $cfg_reurl_goodsshow = '{goodsshow}-{cid}-{tid}-{id}-{page}.html';
 $cfg_reurl_vote = '{vote}-{id}.html';
 $cfg_reurl_custom = '{file}.html';
-$cfg_auth_key = 'vI7F9942bh2UvdBb';
+$cfg_auth_key = 'fU2YIdLPIWxXlJiw';
 $cfg_alipay_uname = '';
 $cfg_alipay_partner = '';
 $cfg_alipay_key = '';

@@ -22,7 +22,7 @@ $(function(){
 				type:'post',
 				data:{"action":"deladminnotes"},
 				dataType:'html',
-				success:function(data){	
+				success:function(data){
 				}
 			});
 			$(this).val("点击输入便签内容...");
@@ -110,7 +110,7 @@ $(function(){
 				<li><?php echo MyDate('m-d H:i',$row['posttime']); ?>：用户 <strong><?php echo $row['uname']; ?></strong> 进行了 <span class="blue">登录操作</span> </li>
 				<?php
 					}
-			
+
 					else if($row['model'] == 'logout')
 					{
 				?>
@@ -120,7 +120,7 @@ $(function(){
 					else if($row['classid'] != 0)
 					{
 						$r2 = $dosql->GetOne("SELECT `classname` FROM `#@__infoclass` WHERE `id`=".$row['classid']);
-						
+
 						if($row['action'] == 'add')
 							$action = '添加';
 						else if($row['action'] == 'update')
@@ -143,46 +143,10 @@ $(function(){
 				?>
 			</ul>
 		</div>
-		<div class="count">
-			<h2 class="title">统计<span><a href="syscount.php">更多&gt;&gt;</a></span></h2>
-			<table width="100%" border="0" cellspacing="0" cellpadding="0">
-				<tr>
-					<td width="80" height="33">网站栏目数：</td>
-					<td class="num"><?php echo $dosql->GetTableRow('#@__infoclass',$cfg_siteid); ?></td>
-				</tr>
-				<tr>
-					<td height="33">单页信息数：</td>
-					<td class="num"><?php
-						$dosql->Execute("SELECT `id` FROM `#@__infoclass` WHERE `siteid`='$cfg_siteid' AND `infotype`=0");
-						echo $dosql->GetTotalRow();
-						?></td>
-				</tr>
-				<tr>
-					<td height="33">列表信息数：</td>
-					<td class="num"><?php echo $dosql->GetTableRow('#@__infolist',$cfg_siteid); ?></td>
-				</tr>
-				<tr>
-					<td height="33">图片信息数：</td>
-					<td class="num"><?php echo $dosql->GetTableRow('#@__infoimg',$cfg_siteid); ?></td>
-				</tr>
-				<tr class="nb">
-					<td height="33">注册会员数：</td>
-					<td class="num"><?php echo $dosql->GetTableRow('#@__member'); ?></td>
-				</tr>
-			</table>
-		</div>
 	</div>
 	<div class="cl"></div>
 </div>
-<div class="homeTeam">
-	<h2 class="title">团队</h2>
-	<ul>
-		<li><strong>程序开发及交互设计：</strong> <i>Feng</i> · <i>Adu</i></li>
-		<li><strong>荣誉P粉：</strong> <i>奋斗</i> · <i>老徐</i>· <i>CHurricane</i> · <i>火爆浪子</i> · <i>老A</i> · <i>麦子</i> · <i>静望黄昏</i> · <i>小学生</i></li>
-		<li class="nb"><strong>鸣谢：</strong> <i>兔饭饭</i> · <i>游鱼</i> · <i>螺丝钉</i> · <i>薛</i> · <i>风青云</i> · <i>上杉达也</i> · <i>Xyao</i> · <i>Lucifer</i> · <i>leaves</i> · <i>Long</i></li>
-		<div class="cl"></div>
-	</ul>
-</div>
+
 <div class="homeNote">
 	<h2 class="title">记事</h2>
 	<div class="notearea">
@@ -199,7 +163,6 @@ $(function(){
 		?></textarea>
 	</div>
 </div>
-<div class="homeCopy"> 敬请您将在使用中发现的问题或者不适提交给我们，以便改进 <a href="http://phpmywind.com/bbs/" target="_blank" class="feedback">点击提交反馈</a> | <a href="help.php" class="doc">开发帮助</a> </div>
 <?php
 function ShowResult($revalue)
 {

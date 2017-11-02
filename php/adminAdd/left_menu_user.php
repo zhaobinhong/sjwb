@@ -60,7 +60,7 @@
 				$leftMenu02_Arr = array('infoclass'=>'<a href="infoclass.php" target="main">栏目管理</a>',
 									'maintype'=>'<a href="maintype.php" target="main">二级类别管理</a>',
 									'info'=>'<a href="info.php" target="main">单页信息管理</a>',
-									'infolist'=>'<a href="infolist.php" target="main">列表信息管理</a>',
+									'infolist'=>'<a href="infolist.php" target="main">公司资讯管理</a>',
 									'infoimg'=>'<a href="infoimg.php" target="main">图片信息管理</a>',
 									'soft'=>'<a href="soft.php" target="main">软件下载管理</a>',
 									'fragment'=>'<a href="fragment.php" target="main">碎片数据管理</a>',
@@ -87,7 +87,6 @@
 				$leftMenu04_Str = '';
 				$leftMenu04_Arr = array('goodstype'=>'<a href="goodstype.php" target="main">商品类别管理</a>',
 									'goodsbrand'=>'<a href="goodsbrand.php" target="main">品牌类型管理</a>',
-									'goods'=>'<a href="goods.php" target="main">商品列表管理</a>',
 									'goodsorder'=>'<a href="goodsorder.php" target="main">商品订单管理</a>',
 									'postmode'=>'<a href="postmode.php" target="main">配送方式管理</a>',
 									'paymode'=>'<a href="paymode.php" target="main">支付方式管理</a>',
@@ -283,8 +282,6 @@
 	</div>
 </div>
 <div class="bGradient"></div>
-<div class="copyright"> © 2017 <a href="http://phpMyWind.com/" target="_blank">phpMyWind.com</a><br />
-	All Rights Reserved. </div>
 <div class="tabMenu">
 	<a href="left_menu_user_name.php" title="切换到名称菜单" class="model"></a>
 </div>

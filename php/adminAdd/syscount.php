@@ -68,7 +68,7 @@
 		<td class="number endCol"><?php echo GetLastEventTime('info'); ?></td>
 	</tr>
 	<tr align="left" class="dataTr">
-		<td height="36" class="firstCol">列表信息管理</td>
+		<td height="36" class="firstCol">公司资讯管理</td>
 		<td><?php echo $dosql->GetTableRow('#@__infolist'); ?></td>
 		<td class="number endCol"><?php echo GetLastEventTime('infolist'); ?></td>
 	</tr>
@@ -265,7 +265,7 @@
 function GetLastEventTime($m='')
 {
 	global $dosql;
-	
+
 	$r = $dosql->GetOne("SELECT MAX(posttime) as time FROM `#@__sysevent` WHERE `id`<>0 AND `model`='$m'");
 
 	if(isset($r['time']))

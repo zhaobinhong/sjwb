@@ -59,93 +59,10 @@
 					<input type="checkbox" name="model[]" value="database" />
 					数据库管理</span></div>
 				<div class="purviewTitle"><strong>栏目内容管理</strong></div>
-				<div class="purviewList"> <span>
-					<input type="checkbox" name="model[]" value="infoclass" />
-					栏目管理</span> <span>
-					<input type="checkbox" name="model[]" value="maintype" />
-					二级类别管理</span> <span>
-					<input type="checkbox" name="model[]" value="info" />
-					单页信息管理</span> <span>
+				<div class="purviewList">
 					<input type="checkbox" name="model[]" value="infolist" />
-					列表信息管理</span> <span>
-					<input type="checkbox" name="model[]" value="infoimg" />
-					图片信息管理</span> <span>
-					<input type="checkbox" name="model[]" value="soft" />
-					软件下载管理</span> <span>
-					<input type="checkbox" name="model[]" value="fragment" />
-					碎片数据管理</span> <span>
-					<input type="checkbox" name="model[]" value="diymodel" />
-					自定义模型</span> <span>
-					<input type="checkbox" name="model[]" value="diyfield" />
-					自定义字段</span> <span>
-					<input type="checkbox" name="model[]" value="infoflag" />
-					信息标记管理</span> <span>
-					<input type="checkbox" name="model[]" value="infosrc" />
-					信息来源管理</span></div>
-				<div class="purviewTitle"><strong>模块扩展管理</strong></div>
-				<div class="purviewList"> <span>
-					<input type="checkbox" name="model[]" value="member" />
-					用户管理</span> <span>
-					<input type="checkbox" name="model[]" value="usergroup" />
-					用户组管理</span> <span>
-					<input type="checkbox" name="model[]" value="userfavorite" />
-					用户收藏管理</span> <span>
-					<input type="checkbox" name="model[]" value="usercomment" />
-					用户评论管理</span> <span>
-					<input type="checkbox" name="model[]" value="message" />
-					留言模块管理</span> <span>
-					<input type="checkbox" name="model[]" value="admanage" />
-					广告模块管理</span> <span>
-					<input type="checkbox" name="model[]" value="adtype" />
-					广告位管理</span> <span>
-					<input type="checkbox" name="model[]" value="weblink" />
-					友情链接管理</span> <span>
-					<input type="checkbox" name="model[]" value="weblinktype" />
-					友情链接分类</span> <span>
-					<input type="checkbox" name="model[]" value="job" />
-					招聘模块管理</span> <span>
-					<input type="checkbox" name="model[]" value="vote" />
-					投票模块管理</span> <span>
-					<input type="checkbox" name="model[]" value="cascade" />
-					级联数据管理</span> </div>
-				<div class="purviewTitle"><strong>商品订单管理</strong></div>
-				<div class="purviewList"> <span>
-					<input type="checkbox" name="model[]" value="goodstype" />
-					商品类别管理</span> <span>
-					<input type="checkbox" name="model[]" value="goodsbrand" />
-					品牌类型管理</span> <span>
-					<input type="checkbox" name="model[]" value="goods" />
-					商品列表管理</span> <span>
-					<input type="checkbox" name="model[]" value="goodsorder" />
-					商品订单管理</span> <span>
-					<input type="checkbox" name="model[]" value="postmode" />
-					配送方式管理</span> <span>
-					<input type="checkbox" name="model[]" value="paymode" />
-					支付方式管理 </span> <span>
-					<input type="checkbox" name="model[]" value="getmode" />
-					货到方式管理</span> <span>
-					<input type="checkbox" name="model[]" value="goodsflag" />
-					商品信息属性</span></div>
-				<div class="purviewTitle"><strong>模板界面管理</strong></div>
-				<div class="purviewList"> <span>
-					<input type="checkbox" name="model[]" value="nav" />
-					导航菜单设置</span> <span>
-					<input type="checkbox" name="model[]" value="diymenu" />
-					自定义菜单项</span> <span>
-					<input type="checkbox" name="model[]" value="mobile" />
-					手机网站设置</span> <span>
-					<input type="checkbox" name="model[]" value="editfile" />
-					默认模板设置</span></div>
-				<div class="purviewTitle"><strong>帮助与更新</strong></div>
-				<div class="purviewList"> <span>
-					<input type="checkbox" name="model[]" value="syscount" />
-					数据统计</span> <span>
-					<input type="checkbox" name="model[]" value="upload_file" />
-					上传新文件</span> <span>
-					<input type="checkbox" name="model[]" value="check_bom" />
-					BOM检查</span> <span>
-					<input type="checkbox" name="model[]" value="help" />
-					开发帮助</span></div>
+					公司资讯管理</span> </div>
+
 				<div class="purviewSel"><a href="javascript:;" onclick="SelModel(true)">全选</a>&nbsp;&nbsp;<a href="javascript:;" onclick="SelModel(false)">反选</a></div></td>
 		</tr>
 		<tr class="nb">
@@ -164,7 +81,7 @@
 
 				$i++;
 			}
-			
+
 			?></td>
 		</tr>
 		<?php
@@ -206,7 +123,7 @@ function Show($siteid=1, $id=0, $i=0)
 			case 0:
 				$addurl   = 'info_update.php?id='.$row['id'];
 				$infotype = ' <i title="栏目属于[单页]类型">[单页]</i>';
-				break;  
+				break;
 			case 1:
 				$addurl   = 'infolist_add.php?cid='.$row['id'];
 				$infotype = ' <i title="栏目属于[列表]类型">[列表]</i>';
