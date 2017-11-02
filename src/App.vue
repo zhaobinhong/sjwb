@@ -6,7 +6,8 @@
           <div class="col-md-12 text-right gtco-contact">
             <ul class="">
               <li><a href="#"><i class="ti-mobile"></i> 010-56212504</a></li>
-              <!--<li><a href="http://twitter.com/gettemplatesco"><i class="ti-twitter-alt"></i> </a></li>-->
+              <li><a href="#/registration">注册</a></li>
+              <li><a href="#/login">登录</a></li>
               <!--<li><a href="#"><i class="icon-mail2"></i></a></li>-->
               <!--<li><a href="#"><i class="ti-facebook"></i></a></li>-->
             </ul>
@@ -45,6 +46,14 @@
                 },100)">家长监护</a></li>
                 </ul>
               </li>
+              <li><a style="cursor: pointer" onclick="setTimeout(function() {
+                  window.location.href='#/disputes';
+                  window.location.reload()
+                },100)">交易纠纷处理</a></li>
+              <li><a style="cursor: pointer" onclick="setTimeout(function() {
+                  window.location.href='#/addiction';
+                  window.location.reload()
+                },100)">防沉迷系统</a></li>
               <li><a style="cursor: pointer" onclick="setTimeout(function() {
                   window.location.href='#/add';
                   window.location.reload()

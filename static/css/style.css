@@ -1941,3 +1941,7 @@ form label {
 ul li {
   list-style: none;
 }
+
+.pageinputmsg{
+  color: red;
+}

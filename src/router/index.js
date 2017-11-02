@@ -7,6 +7,10 @@ import Add from '../components/add.vue'
 import To from '../components/to.vue'
 import Protocol from '../components/protocol.vue'
 import Guardianship from '../components/guardianship.vue'
+import Disputes from '../components/disputes.vue'
+import Addiction from '../components/addiction.vue'
+import Login from '../components/login.vue'
+import Registration from '../components/registration.vue'
 
 Vue.use(Router)
 
@@ -49,6 +53,26 @@ export default new Router({
       path: '/guardianship',
       name: 'guardianship',
       component: Guardianship
+    },
+    {
+      path: '/disputes',
+      name: 'disputes',
+      component: Disputes
+    },
+    {
+      path: '/addiction',
+      name: 'addiction',
+      component: Addiction
+    },
+    {
+      path: '/login',
+      name: 'login',
+      component: Login
+    },
+    {
+      path: '/registration',
+      name: 'registration',
+      component: Registration
     }
   ]
 })
