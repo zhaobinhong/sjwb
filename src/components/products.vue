@@ -164,7 +164,7 @@
               </li>
               <li class="one-third" data-animate-effect="fadeIn"
                   style="background-image: url(static/img/vvv.jpg); ">
-                <a href="/鲤鱼悦漫.apk" class="color-4">
+                <a href="5.apk" class="color-4">
                   <div class="case-studies-summary">
                     <h2>鲤鱼悦漫</h2>
                     <p style="color: #fff;">

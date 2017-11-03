@@ -1945,3 +1945,8 @@ ul li {
 .pageinputmsg{
   color: red;
 }
+
+#navActive{
+  min-width: 730px;
+  float: right;
+}

@@ -1941,3 +1941,8 @@ form label {
 ul li {
   list-style: none;
 }
+
+#navActive{
+  min-width: 730px;
+  float: right;
+}
