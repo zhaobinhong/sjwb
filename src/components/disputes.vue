@@ -106,6 +106,10 @@
     font-weight: normal;
   }
 
+  h4{
+    font-weight: bold;
+  }
+
   ul.partnerQY {
     list-style-type: none;
     padding: 0;

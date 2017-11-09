@@ -128,13 +128,13 @@
           <div class="col-md-12">
             <div class="feature-left animate-box fadeInLeft animated-fast" data-animate-effect="fadeInLeft">
               <div class="text-left">
-                <a href="/1.doc">附件表一：监护人信息表时书</a>
+                <a href="jz.doc">附件表一：监护人信息表时书</a>
                 <br>
-                <a href="/2.docx">附件表二：被监护人信息表明书</a>
+                <a href="bj.doc">附件表二：被监护人信息表明书</a>
                 <br>
-                <a href="/3.doc">附件表三：家长监护申请书</a>
+                <a href="jh.docx">附件表三：家长监护申请书</a>
                 <br>
-                <a href="/4.rar">打包下载：打包下载全部</a>
+                <a href="ys.rar">打包下载：打包下载全部</a>
               </div>
 
             </div>
