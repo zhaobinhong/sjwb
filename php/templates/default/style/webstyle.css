@@ -218,6 +218,11 @@
 #textarea p{
   text-indent: 2em;
 }
+#textarea img{
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
 
 /*软件内容页*/
 .softConts{position:relative;line-height:26px;color:#666;}
@@ -317,10 +322,11 @@
 .picarr{position:relative;margin:20px auto;}
 .picarr .picture{width:100%;text-align:center;}
 .picarr .picture a{display:none;}
-.picarr .preview{width:685px;margin-top:20px;padding:5px;background:#eef3fa;border-radius:5px;-webkit-border-radius:5px;-moz-border-radius:5px;}
-.picarr .preview li{float:left;margin:4px;}
-.picarr .preview li a{width:58px;height:45px;border:1px solid #fff;background:#fff;display:table-cell;vertical-align:middle;text-align:center;*display:block;*font-size:35px;*font-family:Arial;}
-.picarr .preview li a img{vertical-align:middle;}
+.picarr .preview{width:100%;margin-top:20px;padding:5px;background:#eef3fa;border-radius:5px;-webkit-border-radius:5px;-moz-border-radius:5px;}
+.picarr .preview li{
+  width:100%;margin:4px;padding: 10px}
+.picarr .preview li a{width:100%;height:45px;display:table-cell;vertical-align:middle;text-align:center;*display:block;*font-size:35px;*font-family:Arial;}
+.picarr .preview li a img{vertical-align:middle;width: 100%}
 .picarr .preview li.current a{border:1px solid #000;}
 
 
