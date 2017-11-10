@@ -143,7 +143,7 @@ $id  = empty($id)  ? 0 : intval($id);
 				if($row['content'] != '')
 					echo GetContPage($row['content']);
 				else
-					echo '网站资料更新中...';
+					echo '';
 				?>
 			</div>
 			<!-- 内容区域结束 -->
