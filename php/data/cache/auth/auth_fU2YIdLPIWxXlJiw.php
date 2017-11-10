@@ -1,1 +1,1 @@
-{\"status\":\"Fail\",\"doname\":\"www.10.7.7.170:8888\"}
+{\"status\":\"Fail\",\"doname\":\"www.localhost:8888\"}

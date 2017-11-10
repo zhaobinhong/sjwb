@@ -1943,6 +1943,17 @@ ul li {
 }
 
 #navActive{
-  min-width: 730px;
+  min-width: 740px;
   float: right;
+}
+
+@media screen and (max-width: 768px) {
+  #navActive {
+    min-width: 20px;
+    float: none;
+  }
+}
+
+.picarr ul li img{
+  max-width: 500px;
 }
