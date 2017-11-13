@@ -242,7 +242,7 @@ function SetSysEvent($m='', $cid='', $a='')
 <html>
 <head>
 <meta charset="utf-8">
-<title>PHPMyWind 管理中心</title>
+<title>登录</title>
 <link href="templates/style/admin.css" rel="stylesheet" />
 <script src="templates/js/jquery.min.js"></script>
 <script>
@@ -308,7 +308,7 @@ $(function(){
 
 <body class="loginBody">
 <div class="loginTop" <?php echo GetLoginBg(); ?>>
-	<div class="logo"><a href="http://phpmywind.com" target="_blank"></a></div>
+	<div class="logo"><a href="/" target="_blank"></a></div>
 	<div class="text"><span class="note">
 		<?php if(strstr(GetCurUrl(), '/admin/login')) echo '提示：您的后台路径为/<i>admin</i>/，建议更改为更加安全的路径！'; ?>
 		</span>
