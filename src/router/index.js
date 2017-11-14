@@ -11,6 +11,7 @@ import Disputes from '../components/disputes.vue'
 import Addiction from '../components/addiction.vue'
 import Login from '../components/login.vue'
 import Registration from '../components/registration.vue'
+import Topup from '../components/topup.vue'
 
 Vue.use(Router)
 
@@ -73,6 +74,11 @@ export default new Router({
       path: '/registration',
       name: 'registration',
       component: Registration
+    },
+    {
+      path: '/topup',
+      name: 'topup',
+      component: Topup
     }
   ]
 })

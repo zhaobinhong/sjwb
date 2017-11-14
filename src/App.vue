@@ -8,6 +8,7 @@
               <li><a href="#"><i class="ti-mobile"></i> 010-56212504</a></li>
               <li><a href="#/registration">注册</a></li>
               <li><a href="#/login">登录</a></li>
+              <li><a href="#/topup">充值</a></li>
               <!--<li><a href="#"><i class="icon-mail2"></i></a></li>-->
               <!--<li><a href="#"><i class="ti-facebook"></i></a></li>-->
             </ul>
