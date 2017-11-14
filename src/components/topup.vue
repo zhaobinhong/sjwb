@@ -118,109 +118,109 @@
                       <li>
                         <label class="radio ">
                           <input type="radio" name="bank" id="bank1" value="GS">
-                          <img src="/static/img/GS.jpg">
+                          <img src="static/img/GS.jpg">
                         </label>
                       </li>
                       <li>
                         <label class="radio ">
                           <input type="radio" name="bank" id="bank2" value="JH">
-                          <img src="/static/img/JH.jpg">
+                          <img src="static/img/JH.jpg">
                         </label>
                       </li>
                       <li>
                         <label class="radio ">
                           <input type="radio" name="bank" id="bank3" value="NH">
-                          <img src="/static/img/NH.jpg">
+                          <img src="static/img/NH.jpg">
                         </label>
                       </li>
                       <li>
                         <label class="radio ">
                           <input type="radio" name="bank" id="bank4" value="ZS">
-                          <img src="/static/img/ZS.jpg">
+                          <img src="static/img/ZS.jpg">
                         </label>
                       </li>
                       <li>
                         <label class="radio ">
                           <input type="radio" name="bank" id="bank5" value="ZG">
-                          <img src="/static/img/ZG.jpg">
+                          <img src="static/img/ZG.jpg">
                         </label>
                       </li>
                       <li>
                         <label class="radio ">
                           <input type="radio" name="bank" id="bank6" value="BJ">
-                          <img src="/static/img/BJ.jpg">
+                          <img src="static/img/BJ.jpg">
                         </label>
                       </li>
                       <li>
                         <label class="radio ">
                           <input type="radio" name="bank" id="bank7" value="JT">
-                          <img src="/static/img/JT.jpg">
+                          <img src="static/img/JT.jpg">
                         </label>
                       </li>
                       <li>
                         <label class="radio ">
                           <input type="radio" name="bank" id="bank8" value="XY">
-                          <img src="/static/img/XY.jpg">
+                          <img src="static/img/XY.jpg">
                         </label>
                       </li>
                       <li>
                         <label class="radio ">
                           <input type="radio" name="bank" id="bank9" value="NJ">
-                          <img src="/static/img/NJ.jpg">
+                          <img src="static/img/NJ.jpg">
                         </label>
                       </li>
                       <li>
                         <label class="radio ">
                           <input type="radio" name="bank" id="bank10" value="MS">
-                          <img src="/static/img/MS.jpg">
+                          <img src="static/img/MS.jpg">
                         </label>
                       </li>
                       <li>
                         <label class="radio ">
                           <input type="radio" name="bank" id="bank11" value="GD">
-                          <img src="/static/img/GD.jpg">
+                          <img src="static/img/GD.jpg">
                         </label>
                       </li>
                       <li>
                         <label class="radio ">
                           <input type="radio" name="bank" id="bank12" value="PA">
-                          <img src="/static/img/PA.jpg">
+                          <img src="static/img/PA.jpg">
                         </label>
                       </li>
                       <li>
                         <label class="radio ">
                           <input type="radio" name="bank" id="bank13" value="BH">
-                          <img src="/static/img/BH.jpg">
+                          <img src="static/img/BH.jpg">
                         </label>
                       </li>
                       <li>
                         <label class="radio ">
                           <input type="radio" name="bank" id="bank14" value="DY">
-                          <img src="/static/img/DY.jpg">
+                          <img src="static/img/DY.jpg">
                         </label>
                       </li>
                       <li>
                         <label class="radio ">
                           <input type="radio" name="bank" id="bank15" value="NB">
-                          <img src="/static/img/NB.jpg">
+                          <img src="static/img/NB.jpg">
                         </label>
                       </li>
                       <li>
                         <label class="radio ">
                           <input type="radio" name="bank" id="bank16" value="ZX">
-                          <img src="/static/img/ZX.jpg">
+                          <img src="static/img/ZX.jpg">
                         </label>
                       </li>
                       <li>
                         <label class="radio ">
                           <input type="radio" name="bank" id="bank17" value="SF">
-                          <img src="/static/img/SF.jpg">
+                          <img src="static/img/SF.jpg">
                         </label>
                       </li>
                       <li>
                         <label class="radio ">
                           <input type="radio" name="bank" id="bank18" value="GF">
-                          <img src="/static/img/GF.jpg">
+                          <img src="static/img/GF.jpg">
                         </label>
                       </li>
                     </ul>
